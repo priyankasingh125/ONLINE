@@ -10,19 +10,21 @@
 <title>Quiz For Programmers</title>
 <!--Favicon-->
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link href="assets/css/style.css" rel="stylesheet">
+<link href="Resources/CS/style.css" rel="stylesheet">
 </head>
 <body>
 <header>
 <div class="header">
-<button class="btn" id="Start-btn">Start</button>  
-<button class="btn" onclick="window.open('About.html', '_blank')">About Quiz</button>    
+<p class="flex-item">WELCOME TO THE QUIZ</p>
+<dic class="flex-item"><button class="btn" id="start-btn">Start</button> </dic>
+<dic class="flex-item"><button class="btn" onclick="window.open('About.html', '_blank')">About Quiz</button>    
+</div>
 </div>
 </header>
 <main>
-<div id="quiz" class="quiz-container">
-<h2 class="header2" id="question"></h2>
-<div id="radiocontainer" class="containerflex">
+<div id="quiz" class="quizContainer">
+<h2 class="headerQues" id="question"></h2>
+<div id="radiocontainer" class="containerFlex">
 </div>
 <div>
 <button class="btn" id="next-btn" >Next</button>
@@ -30,6 +32,6 @@
 <div class="scores" id="score"></div>
 </div>
 </main>
-<script src="assets/jss/script.js"></script>
+<script src="Resources/JS/script.js"></script>
 </body>
 </html>
